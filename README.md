@@ -1,23 +1,26 @@
-* Stacks
-    1. what is a stack
-        a. collection of data that follows LIFO (Last In First Out)
-    2. Where stacks are used
-        a. Managing Function invocations
-        b. Undo/Redo
-        c. Routhing(the hisstory Object) is treated like a stack
-    3. BiG O of stacks (prioritize insertion and removal)
-        a. insertion - O(1);
-        b. removal - O(1);
+* Trees 
+    1. What is a tree. 
+        a. A data structure that consists of nodes in a parent/ child relationship.
+    2. Tree Terminology 
+        a. root: the top node in a tree; 
+        b. leaf: a node with no children
+    3. Applications for trees
+        a. HTML DOM 
+        b. Network Routing
+        c. Artificial Intelligence
 
+* Binary Tree
+    1. A parent can only have 2 children
 
-* Queues
-    1. What is a queue?
-        a. adding and and removing data that follow FIFO (first In First Out)
-    2. Where have you seen this before
-        a. queues in a video game
-        b. background task
-        c. print queue 
-    3. Big O notation
-        a. insertion O(1);
-        b. removal O(1); 
-# QueuesAndStacks
+* Binary Search Trees (BST)
+    1. Every Parent node has 2 children;
+    2. Every node to the left of a parent node is always less than the parent.
+    3. Every node to the right of a parent node is always greater than the parent.
+
+* BST Big O
+    1. Average Case (even BST)
+        a. insertion - O(log n);
+        b. searching - O(log n);
+    2. Worst Case (one sided BST)
+        a. insertion - O(n);
+        b. searching - o(n);# BinarySearchTrees
